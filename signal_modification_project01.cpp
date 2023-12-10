@@ -11,7 +11,7 @@ out(t) = in(t) + 0.01 * rn(t) - 0.005 * Amax
 in(t) is the input from the WAV file at time t, rn(t) is random noise that is constrained
  by Amax, and Amax is the maximum amplitude. After modifying the WAV file the program will
   write my name, file name, number of channels, the sampling frequency, number of bits sampled,
-   the length of the record, maximum amplitude in each channel, and the program’s execution time.
+   the length of the record, maximum amplitude in each channel, and the programâ€™s execution time.
 */
 //C++ Standard Libraries
 #include <iostream>
